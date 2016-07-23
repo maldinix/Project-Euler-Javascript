@@ -16,8 +16,9 @@ Paul Merrigan, 7/21/2016
 */
 
 var sumThreeOrFive = 0;
+var MAX = 1000;
 
-for (var x = 1; x < 1000; x++) {
+for (var x = 1; x < MAX; x++) {
 
     if ((x % 3 === 0) || (x % 5 === 0)) {
         
